@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PositiveSuit">
+    <test name="checkSearchPageOpeningAfterSearchQuery">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="checkSearchPageOpeningAfterSearchQuery"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="checkSearchOnHomePage">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="checkSearchOnHomePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="checksUserLoginIn">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="checksUserLoginIn"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="verifySubscriptionFromHealthAndCarePage">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="verifySubscriptionFromHealthAndCarePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="verifyRestorePasswordForm">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="verifyRestorePasswordForm"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

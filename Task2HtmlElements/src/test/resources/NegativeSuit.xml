@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="NegativeSuit">
+    <test verbose="1" name="loginWithInvalidEmail" annotations="JDK">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="loginWithInvalidEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" name="checkSearchWithNegativeValue" annotations="JDK">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="checkSearchWithNegativeValue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" name="loginWithoutEmail" annotations="JDK">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="loginWithoutEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" name="loginWithoutPassword" annotations="JDK">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="loginWithoutPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" name="verifySubscriptionWithInvalidEmailFromHealthAndCarePage" annotations="JDK">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="verifySubscriptionWithInvalidEmailFromHealthAndCarePage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" name="sendFeedbackWithInvalidEmailInRussianLanguage" annotations="JDK">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="sendFeedbackWithInvalidEmailInRussianLanguage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" name="sendFeedbackWithInvalidEmailInUkrainianLanguage" annotations="JDK">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="sendFeedbackWithInvalidEmailInUkrainianLanguage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" name="sendFeedbackWithInvalidEmail" annotations="JDK">
+        <classes>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="sendFeedbackWithInvalidEmail"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
